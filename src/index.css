@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url(./Fonts/CoHeadlineCorp-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url(./Fonts/CoHeadlineCorp-Bold.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Co Headline Corp';
+  src: url(./Fonts/CoHeadlineCorp-Regular.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Co Headline Corp';
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 320px;
+}
+
+.input-block__input {
+  height: 56px;
+  width: 320px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 100px;
+}
+
+.input-block__input:invalid,
+.input_invalid {
+  border-color: #F90B27;
+}
+
+.hint {
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 12px;
+  color: #959494;
+  margin: 0 20px;
+}
+
+h1 {
+  margin-left: 20px;
+  font-size: 24px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.button {
+  width: 320px;
+  height: 56px;
+  margin-top: 16px;
+
+  border-radius: 100px;
+  border: none;
+
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.background-color_violet {
+  background: #8C50A6;
+}
+
+.background-color_green {
+  background: #50DE97;
+}
+
+.color_red {
+  color: #F90B27;
+}
+
+::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: local('Co Headline Corp Light'), local('CoHeadlineCorp-Light'), url('CoHeadlineCorp-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: local('Co Headline Corp Bold'), local('CoHeadlineCorp-Bold'), url('CoHeadlineCorp-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: local('Co Headline Corp'), local('CoHeadlineCorp-Regular'), url('CoHeadlineCorp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
